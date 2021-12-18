@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="Keywords" content="html, css, html tables, table">
     <meta name="Description" content="html table">
+    <script type="text/javascript" src="https://unpkg.com/xlsx@0.15.1/dist/xlsx.full.min.js"></script>
     <!-- add icon -->
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
         <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
@@ -17,8 +18,8 @@ body{
 }
 
 .container{
-  width: 720px;
-  height: 440px;
+  width: auto;
+  height: auto;
   margin: 0 auto;
   padding-left: 32px;
   padding-right: 32px;
@@ -34,7 +35,9 @@ body{
 
 table{
   margin: 0 auto;
+
 }
+
 
 td, th {
   padding: 12px;
@@ -50,7 +53,7 @@ td, th {
   <body>
     <div class="container">
       <h2>HTML TABLE</h2>
-      <table>
+      <table id="tablemarks">
         <thead>
           <tr>
             <th>Roll No.</th>
@@ -63,7 +66,7 @@ td, th {
           <tr>  
         </thead>
         <tbody>
-          <tr>
+          <tr">
             <td>01</td>
             <td>Ali</td>
             <td><input type="number"></td>
@@ -76,37 +79,37 @@ td, th {
             <td>02</td>
             <td>Salman</td>
             <td><input type="number"></td>
-            <td>77</td>
-            <td>87</td>
-            <td>92</td>
-            <td>95</td>
+            <td><input type="number"></td>
+            <td><input type="number"></td>
+            <td><input type="number"></td>
+            <td><input type="number"></td>
           </tr>
           <tr>
             <td>03</td>
             <td>Shan</td>
             <td><input type="number"></td>
-            <td>77</td>
-            <td>87</td>
-            <td>92</td>
-            <td>95</td>
+            <td><input type="number"></td>
+            <td><input type="number"></td>
+            <td><input type="number"></td>
+            <td><input type="number"></td>
           </tr>
           <tr>
             <td>04</td>
             <td>Aliyan</td>
             <td><input type="number"></td>
-            <td>77</td>
-            <td>87</td>
-            <td>92</td>
-            <td>95</td>
+            <td><input type="number"></td>
+            <td><input type="number"></td>
+            <td><input type="number"></td>
+            <td><input type="number"></td>
           </tr>
           <tr>
             <td>05</td>
             <td>Zeeshan</td>
             <td><input type="number"></td>
-            <td>77</td>
-            <td>87</td>
-            <td>92</td>
-            <td>95</td>
+            <td><input type="number"></td>
+            <td><input type="number"></td>
+            <td><input type="number"></td>
+            <td><input type="number"></td>
           </tr>
         </tbody>
         <!-- footer 
@@ -118,6 +121,10 @@ td, th {
           </tr>
         </tfoot> footer ends-->
       </table>
+      
     </div>
   </body>
-</html>
+  
+
+
+  </html>
